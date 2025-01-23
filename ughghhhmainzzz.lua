@@ -119,7 +119,7 @@ SecureCall(function()
 
 	if script_key and queue_on_teleport and not debug_mode then
 		did_queue = true
-		queue_on_teleport(('loadstring(game:HttpGet("https://raw.githubusercontent.com/ughhhhhhhhhhhhhhhhbackup/backedupthosewhoknow/refs/heads/main/ughghhhmainzzz.lua"))()'):format(script_key, LRM_LinkedDiscordID or ""))
+		queue_on_teleport(('loadstring(game:HttpGet("https://raw.githubusercontent.com/ughhhhhhhhhhhhhhhhbackup/backedupthosewhoknow/refs/heads/main/ughghhhmainzzz.lua"))()'))
 	end
 
 	if game.PlaceId == 4111023553 then
